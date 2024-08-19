@@ -1,7 +1,9 @@
 //JavaScript Fundamentals – Part 1
-//Coding Challenge #1
-//Data 1:
 
+//Coding Challenge #1
+console.log('Bai1');
+
+//Data 1:
 let weightMark = 78;
 let heightMark = 1.69;
 let BMIMark = weightMark / (heightMark ** 2);
@@ -24,3 +26,6 @@ BMIJohn = weightJohn / (heightJohn ** 2);
 
 markHigherBMI = BMIMark > BMIJohn;
 console.log(markHigherBMI);
+
+//Coding Challenge #2
+console.log('Bai2');
