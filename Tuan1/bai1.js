@@ -26,6 +26,3 @@ BMIJohn = weightJohn / (heightJohn ** 2);
 
 markHigherBMI = BMIMark > BMIJohn;
 console.log(markHigherBMI);
-
-//Coding Challenge #2
-console.log('Bai2');
