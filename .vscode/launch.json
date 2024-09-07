@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Tuan1\\bai1.js"
+            "program": "${workspaceFolder}\\Tuan1\\bai4.js"
         }
     ]
 }
