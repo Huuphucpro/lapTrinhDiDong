@@ -16,12 +16,12 @@ const YourApp = () =>{
       </View>
       <View style={{flex:1, backgroundColor: '#00CCF9', justifyContent: 'center', alignItems: 'center'}}>
         <Text style={{backgroundColor: '#00CCF9', fontWeight: 700,}}>We will help you to grow your business using online sever</Text>
-        </View>
+        </View>   
       <View style={{flex:2, backgroundColor: '#00CCF9', flexDirection:'row', justifyContent: 'center', alignItems: 'center'}}>
         <View View style={{backgroundColor: 'yellow', padding: 10, borderRadius: 10, marginRight: 10}}>Login</View>
         <View style={{backgroundColor: 'yellow', padding: 10, borderRadius: 10, marginLeft: 10 }}>Sigup</View>
       </View>
     </View>
   );
-};
+}; 
 export default YourApp;
