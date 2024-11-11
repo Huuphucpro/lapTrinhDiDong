@@ -50,7 +50,6 @@ export default function App() {
       <Text style={styles.headerText}>The world's Best Bike</Text>
       <Text style={styles.headerText}>Tran Huu Phuc</Text>
 
-      {/* Form thêm mới */}
       <View style={styles.form}>
         <TextInput
           style={styles.input}
@@ -72,8 +71,7 @@ export default function App() {
         />
         <Button title="Add Bike" onPress={addBike} />
       </View>
-
-      {/* Danh sách xe đạp */}
+      
       <FlatList
         data={bikes}
         renderItem={renderBikeItem}
